@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" class="no-js">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta
             name="description"
-            content="王子豪的研究生个人主页，展示学习经历、研究方向、专业技能与 RAG AGENT 等代表作品。"
+            content="王子豪的研究生个人主页，记录 RAG AGENT、LangChain 和 Transformer 学习实践，分享项目思路并提供交流方式。"
         >
         <meta name="theme-color" content="#f4fbf7">
         <title>王子豪｜研究生个人主页</title>
@@ -35,7 +35,7 @@
                 </button>
 
                 <nav class="primary-navigation" id="primary-navigation" aria-label="主导航" data-navigation>
-                    <a class="nav-link is-active" href="#home">首页</a>
+                    <a class="nav-link is-active" href="#home" aria-current="location">首页</a>
                     <a class="nav-link" href="#about">关于我</a>
                     <a class="nav-link" href="#skills">技能</a>
                     <a class="nav-link" href="#projects">作品展示</a>
@@ -57,9 +57,9 @@
                             <span>王子豪</span>
                         </h1>
                         <p class="hero-lead">
-                            我目前就读于<span class="placeholder-text">「学校名称」</span>，关注
-                            <span class="placeholder-text">「研究方向」</span>。我喜欢把复杂问题拆解清楚，
-                            再用研究与实践做出可靠的答案。
+                            我是一名研究生，正在探索<span class="placeholder-text">大语言模型应用与知识库问答</span>。
+                            这里记录 RAG AGENT、LangChain 和 Transformer 的学习与实践，
+                            也欢迎老师和同学交流思路。
                         </p>
                         <div class="hero-actions">
                             <a class="button button-primary" href="#projects">
@@ -75,20 +75,17 @@
                         </ul>
                     </div>
 
-                    <div class="hero-visual reveal" aria-label="抽象科研轨迹图">
+                    <div class="hero-visual reveal" aria-label="学习主题索引">
                         <div class="visual-card">
                             <div class="visual-topline">
-                                <span>RESEARCH / 01</span>
-                                <span class="status"><i></i> ONLINE</span>
+                                <span>LEARNING NOTES</span>
+                                <span class="status"><i></i> 持续学习</span>
                             </div>
-                            <div class="orbit" aria-hidden="true">
-                                <span class="orbit-ring orbit-ring-one"></span>
-                                <span class="orbit-ring orbit-ring-two"></span>
-                                <span class="orbit-core">R</span>
-                                <span class="orbit-node node-one"></span>
-                                <span class="orbit-node node-two"></span>
-                                <span class="orbit-node node-three"></span>
-                            </div>
+                            <ol class="learning-map">
+                                <li><span>01 / 应用实践</span><a href="#rag-project">RAG AGENT <span aria-hidden="true">↗</span></a></li>
+                                <li><span>02 / 应用编排</span><a href="#langchain-project">LangChain <span aria-hidden="true">↗</span></a></li>
+                                <li><span>03 / 模型原理</span><a href="#transformer-project">Transformer <span aria-hidden="true">↗</span></a></li>
+                            </ol>
                             <div class="visual-caption">
                                 <p>从问题出发</p>
                                 <span>学习 · 验证 · 创造</span>
@@ -116,34 +113,35 @@
                     <div class="about-grid">
                         <article class="about-intro reveal">
                             <p class="large-copy">
-                                我是一名对<span>「研究领域」</span>保持好奇的研究生，
+                                我是一名对<span>人工智能应用与模型原理</span>保持好奇的研究生，
                                 希望让每一次学习都能沉淀为清晰的方法和可复用的成果。
                             </p>
                             <p>
-                                目前，我正在<span class="placeholder-text">「院系 / 实验室名称」</span>开展学习与研究。
-                                这里可以补充你的研究主题、关注的问题，以及你希望通过研究带来的价值。
+                                我的学习围绕三条线展开：通过 RAG AGENT 理解知识检索与问答，
+                                通过 LangChain 梳理应用编排，再通过 Transformer 学习模型的核心结构。
+                                我希望把概念、代码和实际问题联系起来，而不只停留在工具使用层面。
                             </p>
                             <aside class="edit-tip">
                                 <span aria-hidden="true">✦</span>
-                                <p><strong>内容提示</strong>把带有「」的文字替换为你的真实信息即可。</p>
+                                <p><strong>交流方向</strong>欢迎讨论知识库问答、应用链路设计和注意力机制。</p>
                             </aside>
                         </article>
 
-                        <div class="timeline reveal" aria-label="学习经历时间线">
+                        <div class="timeline reveal" aria-label="学习经历与实践方式">
                             <article class="timeline-item">
-                                <div class="timeline-date">20XX — 至今</div>
+                                <div class="timeline-date">当前阶段</div>
                                 <div>
                                     <p class="timeline-label">研究生</p>
-                                    <h3>学校名称 · 专业名称</h3>
-                                    <p>研究方向：请填写你的主要研究方向与当前课题。</p>
+                                    <h3>研究生阶段学习</h3>
+                                    <p>结合个人项目学习人工智能应用与模型原理；学校、专业及入学年份暂未公开。</p>
                                 </div>
                             </article>
                             <article class="timeline-item">
-                                <div class="timeline-date">20XX — 20XX</div>
+                                <div class="timeline-date">实践方式</div>
                                 <div>
-                                    <p class="timeline-label">本科</p>
-                                    <h3>学校名称 · 专业名称</h3>
-                                    <p>可以补充主修课程、毕业设计或重要学习经历。</p>
+                                    <p class="timeline-label">项目驱动</p>
+                                    <h3>从应用到原理</h3>
+                                    <p>以 RAG AGENT、LangChain 和 Transformer 为线索，整理问题、实现思路与学习笔记。</p>
                                 </div>
                             </article>
                         </div>
@@ -152,10 +150,9 @@
                     <div class="interest-row reveal" aria-label="研究兴趣">
                         <p>研究兴趣</p>
                         <div class="tag-list">
-                            <span>研究方向 A</span>
-                            <span>研究方向 B</span>
-                            <span>交叉领域 C</span>
-                            <span>+ 自定义</span>
+                            <span>检索增强生成</span>
+                            <span>大语言模型应用</span>
+                            <span>注意力机制</span>
                         </div>
                     </div>
                 </div>
@@ -168,7 +165,7 @@
                             <p class="section-index">02 / SKILLS</p>
                             <h2 id="skills-title">技能与能力</h2>
                         </div>
-                        <p>这些是示例分类，请根据真实能力增删或调整熟练程度。</p>
+                        <p>围绕当前项目整理的学习主题，不使用主观百分比表示熟练度。</p>
                     </div>
 
                     <div class="skills-grid">
@@ -177,12 +174,12 @@
                                 <span class="skill-number">01</span>
                                 <span class="skill-icon" aria-hidden="true">⌁</span>
                             </div>
-                            <h3>专业技能</h3>
-                            <p>与研究方向直接相关的理论、方法和实验能力。</p>
+                            <h3>模型与检索</h3>
+                            <p>学习模型结构、检索策略与答案可追溯性。</p>
                             <ul>
-                                <li><span>专业方法 A</span><i style="--level: 84%"></i></li>
-                                <li><span>专业方法 B</span><i style="--level: 72%"></i></li>
-                                <li><span>数据分析</span><i style="--level: 78%"></i></li>
+                                <li><span>RAG 与混合检索</span></li>
+                                <li><span>Self-Attention 与位置编码</span></li>
+                                <li><span>检索结果与来源分析</span></li>
                             </ul>
                         </article>
 
@@ -191,12 +188,12 @@
                                 <span class="skill-number">02</span>
                                 <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span>
                             </div>
-                            <h3>编程与工具</h3>
-                            <p>用于实验、分析、实现和协作的常用工具。</p>
+                            <h3>应用与工具</h3>
+                            <p>从项目中认识工具的职责与协作方式。</p>
                             <ul>
-                                <li><span>Python</span><i style="--level: 86%"></i></li>
-                                <li><span>MATLAB / R</span><i style="--level: 68%"></i></li>
-                                <li><span>Git / LaTeX</span><i style="--level: 76%"></i></li>
+                                <li><span>LangChain 应用编排</span></li>
+                                <li><span>Milvus 向量检索</span></li>
+                                <li><span>HTML / CSS / JavaScript</span></li>
                             </ul>
                         </article>
 
@@ -205,12 +202,12 @@
                                 <span class="skill-number">03</span>
                                 <span class="skill-icon" aria-hidden="true">◎</span>
                             </div>
-                            <h3>科研能力</h3>
-                            <p>从问题定义到结果表达的完整研究过程。</p>
+                            <h3>学习与表达</h3>
+                            <p>把学习过程组织为可以理解和交流的内容。</p>
                             <ul>
-                                <li><span>文献调研</span><i style="--level: 82%"></i></li>
-                                <li><span>实验设计</span><i style="--level: 74%"></i></li>
-                                <li><span>学术写作</span><i style="--level: 70%"></i></li>
+                                <li><span>问题拆解与资料整理</span></li>
+                                <li><span>代码阅读与流程梳理</span></li>
+                                <li><span>项目说明与学习记录</span></li>
                             </ul>
                         </article>
                     </div>
@@ -228,7 +225,7 @@
                     </div>
 
                     <div class="project-list">
-                        <article class="project-card project-card-large reveal">
+                        <article class="project-card project-card-large reveal" id="rag-project" aria-labelledby="rag-title">
                             <div class="project-visual visual-data" aria-hidden="true">
                                 <div class="chart-grid"></div>
                                 <svg viewBox="0 0 560 300" role="presentation">
@@ -240,17 +237,22 @@
                             <div class="project-copy">
                                 <div>
                                     <p class="project-type">研究项目 · 01</p>
-                                    <h3>RAG AGENT</h3>
+                                    <h3 id="rag-title">RAG AGENT</h3>
                                     <p>面向知识库问答的智能助手，集成文档上传、分块管理、向量与 BM25 混合检索，支持多轮流式对话、工具调用轨迹与答案来源追溯。通过可视化工作台管理知识文档、检查切分结果并调试检索流程。</p>
                                 </div>
                                 <div class="project-footer">
                                     <div class="tag-list small-tags"><span>LangChain</span><span>Milvus</span><span>FastAPI / Vue 3</span></div>
-                                    <button class="project-placeholder" type="button" disabled>详情待补充</button>
+                                    <details class="project-details">
+                                        <summary>查看 RAG AGENT 项目说明</summary>
+                                        <p><strong>关注问题：</strong>如何让知识库问答能够找到相关文档，并给出可核对的答案来源。</p>
+                                        <p><strong>实现思路：</strong>文档上传与分块 → 向量和 BM25 混合检索 → 生成回答与来源追溯，结合工作台检查中间结果。</p>
+                                        <p><strong>交流重点：</strong>分块方式、混合检索和工具调用轨迹。尚未提供公开演示及独立项目仓库。</p>
+                                    </details>
                                 </div>
                             </div>
                         </article>
 
-                        <article class="project-card reveal">
+                        <article class="project-card reveal" id="langchain-project" aria-labelledby="langchain-title">
                             <div class="project-visual visual-system" aria-hidden="true">
                                 <div class="system-node node-a">输入</div>
                                 <div class="system-node node-b">链路</div>
@@ -261,17 +263,22 @@
                             <div class="project-copy">
                                 <div>
                                     <p class="project-type">课程实践 · 02</p>
-                                    <h3>LangChain</h3>
+                                    <h3 id="langchain-title">LangChain</h3>
                                     <p>围绕大语言模型应用开展学习实践，梳理提示词模板、模型调用与链式编排流程，探索如何将独立步骤组织为可复用的应用链路。</p>
                                 </div>
                                 <div class="project-footer stacked">
                                     <div class="tag-list small-tags"><span>LangChain</span><span>提示词模板</span><span>链式编排</span></div>
-                                    <button class="project-placeholder" type="button" disabled>详情待补充</button>
+                                    <details class="project-details">
+                                        <summary>查看 LangChain 学习说明</summary>
+                                        <p><strong>学习目标：</strong>理解输入、提示词、模型调用与输出处理之间的关系。</p>
+                                        <p><strong>探索路径：</strong>从单次调用出发，学习提示词模板和链式编排，再梳理检索模块如何与问答流程衔接。</p>
+                                        <p><strong>内容边界：</strong>这是学习实践项目介绍，未展示未经验证的功能、实验指标或生产部署成果。</p>
+                                    </details>
                                 </div>
                             </div>
                         </article>
 
-                        <article class="project-card reveal">
+                        <article class="project-card reveal" id="transformer-project" aria-labelledby="transformer-title">
                             <div class="project-visual visual-paper" aria-hidden="true">
                                 <div class="paper-sheet">
                                     <span></span><span></span><span></span><span></span>
@@ -281,12 +288,17 @@
                             <div class="project-copy">
                                 <div>
                                     <p class="project-type">个人探索 · 03</p>
-                                    <h3>Transformer</h3>
+                                    <h3 id="transformer-title">Transformer</h3>
                                     <p>围绕 Transformer 核心结构开展学习与实现探索，重点理解词嵌入、位置编码、多头自注意力与编码器—解码器的数据流，整理关键公式和模块关系。</p>
                                 </div>
                                 <div class="project-footer stacked">
                                     <div class="tag-list small-tags"><span>Self-Attention</span><span>位置编码</span><span>Encoder / Decoder</span></div>
-                                    <button class="project-placeholder" type="button" disabled>详情待补充</button>
+                                    <details class="project-details">
+                                        <summary>查看 Transformer 学习说明</summary>
+                                        <p><strong>学习目标：</strong>理解序列表示如何经过注意力机制和前馈网络逐层变换。</p>
+                                        <p><strong>探索路径：</strong>词嵌入与位置编码 → Q、K、V 与多头注意力 → 编码器和解码器，结合公式梳理张量维度。</p>
+                                        <p><strong>内容边界：</strong>以原理学习与实现探索为主，暂未提供训练数据、评估指标或公开代码。</p>
+                                    </details>
                                 </div>
                             </div>
                         </article>
@@ -308,11 +320,11 @@
                         </div>
                         <div class="contact-item">
                             <span>GITHUB</span>
-                            <strong>请替换为你的主页链接</strong>
+                            <strong><a href="https://github.com/lin123-ovo" target="_blank" rel="noopener noreferrer">lin123-ovo ↗<span class="sr-only">（新窗口打开）</span></a></strong>
                         </div>
                         <div class="contact-item">
-                            <span>LOCATION</span>
-                            <strong>学校 / 城市</strong>
+                            <span>SOURCE</span>
+                            <strong><a href="https://github.com/lin123-ovo/homepage" target="_blank" rel="noopener noreferrer">主页源代码 ↗<span class="sr-only">（新窗口打开）</span></a></strong>
                         </div>
                     </div>
                 </div>
